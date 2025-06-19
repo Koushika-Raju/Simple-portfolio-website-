@@ -1,0 +1,95 @@
+body{
+    font-family: 'poppins', 'sans-serif';
+}  
+
+.header{
+    color: black;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header-img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.text-overlay{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.button{
+    height: 30px;
+    width: 150px;
+}
+
+.button:hover, .subbutton:hover{
+    background-color: grey;
+    transition-delay: 0.1s;
+}
+
+.text-overlay h1,.text-overlay h3, .text-overlay button{
+    margin: 10px;
+}
+
+.subbutton{
+    height: 30px;
+    width: 150px;
+}
+
+.form input, .form textarea{
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+.form input{
+    height: 30px;
+    width: 150px;
+}
+
+.footertext-overlay{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
+.footer img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.footertext-overlay h4, .footertext-overlay p{
+    margin: 10px;
+}
+.mail{
+    display: inline-block;
+}
+.subbutton{
+    background-color: aqua;
+    
+}
+
+.button, .subbutton{
+    cursor: pointer;
+    transition: transform 1 s ease;
+}
+
+.button:hover, .subbutton:hover{
+    transform: 0.3s ease;
+}

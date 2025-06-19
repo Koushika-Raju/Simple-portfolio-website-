@@ -1,0 +1,139 @@
+body{
+    font-family: 'poppins', 'sans-serif';
+}
+
+
+
+.header{
+    color: black;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.cls{
+    color: white;
+}
+
+.cls1{
+    height: 30px;
+    width: 100px;
+}
+
+.header-img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.text-overlay{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    text-align: center;
+    color: white;
+}
+
+.text-overlay h1,.text-overlay h3, .text-overlay button{
+    margin: 10px;
+}
+    
+
+
+.interest, .project, .certification, .exp{
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    position: relative;
+
+    
+}
+.interest{
+    height: 350px;
+    width: 200px;
+}
+
+
+.project{
+    height: 350px;
+    width: 350px;
+}
+.certification{
+        height: 350px;
+        width: 350px;
+}
+.exp{
+     height: 350px;
+    width: 350px;
+}
+
+.mail{
+    display: inline-block;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+.contact{
+    height: 35px;
+    width: 150px;
+}
+
+.contact:hover{
+    background-color: grey;
+    transition-delay: 0.1s;
+}
+
+.text{
+    position: absolute;
+    color: white;
+    top: 5%; 
+    left: 10%;
+}
+
+.interest, .project, .certification, .exp{
+    overflow: hidden;
+}
+
+.interest img, .project img, .certification img, .exp img{
+     width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    transition: transform 1 s ease;
+}
+
+
+.interest:hover, .project:hover, .certification:hover, .exp:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.footertext-overlay{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    text-align: center;
+    color: white;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
+.footer img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+.footertext-overlay h4, .footertext-overlay p{
+    margin: 10px;
+}
